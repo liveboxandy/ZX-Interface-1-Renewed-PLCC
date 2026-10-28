@@ -1,0 +1,243 @@
+(footprint "C1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "C1206")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at 0.612725 -3.6449 0)
+		(layer "F.SilkS")
+		(uuid "a4dc1e7b-cc7e-450f-979b-f9a4be0e6631")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "47nF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ba86cffb-6a80-4671-acce-17ae567c5664")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90bfcc9e-bcc4-4b83-b0ef-e4c0dcf9789d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "SMD Comm X7R, Ceramic, 0.047 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 21.2766 GOhms, 17 mg, 1206, 3.2mm, 1.6mm, 0.78mm, 0.5mm, 4000, 78  Weeks, 80"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5554b7b2-5dbf-4ebc-9dee-1e13aba7efa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e279d41-54b4-41c1-8d80-a6b928c663ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "KEMET"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dbd87b4-8044-4f11-9e54-d008a6da252d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "C1206C473K5RACTU"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14bdd23a-c872-47a9-92a7-857b61de98d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "80-C1206C473K5R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9da03fd9-b54b-4bd3-ae1f-ae1925dba270")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-C1206C473K5R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48076461-753a-462d-9a80-6caa6a1a6066")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "ZX Interface 1 New Layout SMD PLCC.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -2.35 0)
+		(end -2.35 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4dc875e1-e91c-479d-b033-2141372adfe6")
+	)
+	(fp_line
+		(start -2.875 -1.8)
+		(end 2.875 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1e31667-7add-4dd1-a238-1cd272a80e3b")
+	)
+	(fp_line
+		(start -2.875 1.8)
+		(end -2.875 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad0ba42c-19a6-4800-bb20-d9471da63d7b")
+	)
+	(fp_line
+		(start 2.875 -1.8)
+		(end 2.875 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdf74f6d-c2fe-4355-a614-7378c80f741d")
+	)
+	(fp_line
+		(start 2.875 1.8)
+		(end -2.875 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c31ad276-5957-4966-89ab-3e942e652630")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c52a7cc3-21db-42a3-af81-0f72cc5383e8")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91985398-d1af-423c-b7db-1329abe2bfc7")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97edee72-f5c2-4685-a1e6-c71666abeb5e")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74eb1a46-dddc-418d-b354-57ba4ceb8d56")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6767f00d-ace9-4334-a34e-ad96ff57b4a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "feec834c-e9a6-4969-be34-e8e04d059b2c")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5ef909d-fb8f-4e05-a88f-35b47c741f51")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/C1206C473K5RACTU.stp"
+		(offset
+			(xyz -1.700000022 -0.8999999626 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,253 @@
+(footprint "LQH2MCN100K02L"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "0806 (2016) T=0.9±0.05mm")
+	(tags "Inductor")
+	(property "Reference" "REF**"
+		(at -0.18645 2.8226 0)
+		(layer "F.SilkS")
+		(uuid "162549fc-96f9-4591-9c8e-4f05452ff999")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "22uH 0.41A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c571cc7e-fdcf-454a-b8f8-d773dd125d5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d2e02b1-6780-497f-8d70-59d444ff499f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "LQH2MPN_GR Series Inductor 22uH +/-20% 0806 (2016)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "592d2974-8dce-4fcc-a4bf-60bfcca01166")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.95"
+		(at 317.9698 240.2524 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bf9b52b-5053-4389-a7ec-9f77d977c880")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Murata Electronics"
+		(at 317.9698 240.2524 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42319f98-3372-4766-a93c-645cbb959b48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "LQH2MPN220MGRL"
+		(at 317.9698 240.2524 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcbcf001-538e-40f7-b29e-5b0a2f4820c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "81-LQH2MPN220MGRL"
+		(at 317.9698 240.2524 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23ddd8f4-43bf-4fd5-871c-2a6ada32c820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQH2MPN220MGRL?qs=AlcXFAMbscBPL110APHcGw%3D%3D"
+		(at 317.9698 240.2524 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6bcb154-0b48-479f-b8fb-142a4e73711b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Microdrive IO")
+	(sheetfile "Microdrive_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5617bfd8-3d91-4e60-8a6d-4832eebc2c6e")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "915481f4-d1f4-4f2a-8c79-4c81bac9c73d")
+	)
+	(fp_line
+		(start -2.3 -1.8)
+		(end 2.3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f1aea5f-1a82-4438-ac50-dbb320a1a1ed")
+	)
+	(fp_line
+		(start -2.3 1.8)
+		(end -2.3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74b1095b-c7b6-4305-af04-7d8f30a40b59")
+	)
+	(fp_line
+		(start 2.3 -1.8)
+		(end 2.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8998ff87-d120-4ac3-9167-4fadd11cfe9e")
+	)
+	(fp_line
+		(start 2.3 1.8)
+		(end -2.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "882c4046-0527-422a-b5fa-dd90ea9b8f98")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07d9f88a-c69c-4ab8-a6c9-88dac040ce28")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80544772-da2e-47ca-97f9-7ea7b05f5392")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21fceb31-9c1c-4d10-b357-812e54dd8457")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d025e25-55aa-4a9d-ba83-5fa4b152d589")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "209f002d-4682-4bcb-9740-cd4ee32457f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b9d555ba-92ae-4420-90ed-cf9bca2bac5e")
+	)
+	(pad "2" smd rect
+		(at 0.85 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90897262-3aa1-49a4-afe8-5ca3b9c7441e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/LQH2MPN220MGRL.stp"
+		(offset
+			(xyz 0 0 0.8600000014)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

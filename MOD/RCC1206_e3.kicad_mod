@@ -1,0 +1,244 @@
+(footprint "RCC1206_e3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "RCC1206_e3")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at -0.52695 -1.8922 0)
+		(layer "F.SilkS")
+		(uuid "e370cd5a-cbda-42e3-a57d-71d904bca5aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "47R"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d91e1865-3ad6-49c0-92f2-125c1c071018")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "819d8039-dbbb-4c14-ab66-a74d97719348")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Medium Power Thick Film Chip Resistor, AEC-Q200, 1206"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "110cef7f-6ee5-44ea-aa15-f5fba7acd06b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0310704c-e997-473a-be7b-5a67e1810737")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Vishay"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adfb292b-e230-42ef-945d-4d30bfb82947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "RCC120647R0FKEA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d4d3412-a721-4cc8-9c51-d760dc10349d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "71-RCC120647R0FKEA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c84d180-88f2-4920-8021-8ace8d24cb51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/RCC120647R0FKEA?qs=IS%252B4QmGtzzocRYaxakpAaA%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6d87833-be09-47dd-8724-1a1c14755e38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Serial IO")
+	(sheetfile "Serial_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -2.375 0)
+		(end -2.375 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "258d88b1-e3e5-400e-8279-69ebc508b679")
+	)
+	(fp_line
+		(start -3.275 -1.8)
+		(end 2.6 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd74af8e-b6f9-4a45-b9db-2e45490c0e2b")
+	)
+	(fp_line
+		(start -3.275 1.8)
+		(end -3.275 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c602086-cf6e-4ae5-adc6-63d167ec47f2")
+	)
+	(fp_line
+		(start 2.6 -1.8)
+		(end 2.6 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ba942a3-09cc-4cc4-83af-77a30ad5e0cd")
+	)
+	(fp_line
+		(start 2.6 1.8)
+		(end -3.275 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c06ac1c-143f-4d31-b6f8-500f5d8092db")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "942f4294-6675-49d6-b814-432c59aac0bf")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "737c1b00-8216-499b-b26c-ea3e1cb1ab44")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "962a42fa-495f-4f2c-a45c-a08d7f17d87f")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76d7f213-b335-4c7a-950e-b7b56d98f3a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cb3e9956-2e85-4944-aec9-032c37fb8ffd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.275 0)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10596b66-6290-4462-975e-b850e70de2ce")
+	)
+	(pad "2" smd rect
+		(at 1.275 0)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a67763c-55cc-412b-83ef-addea50a6788")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/RCC120647R0FKEA.stp"
+		(offset
+			(xyz 1.6 0.7999999999 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

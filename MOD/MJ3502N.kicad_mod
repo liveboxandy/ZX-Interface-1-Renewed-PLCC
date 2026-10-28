@@ -1,0 +1,377 @@
+(footprint "MJ3502N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "MJ-3502N-1")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 4.177675 6.8644 0)
+		(layer "F.SilkS")
+		(uuid "975440ab-d378-4c72-95d1-1d0393dce909")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MJ-3502N"
+		(at 3.498 0.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4fc782a-740d-4598-8e86-59ffbae89c3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b59dc2a-2f99-4e73-9810-45a5006463e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Phone Connectors Audio Jacks"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6404a9a9-3e0f-41b9-8ac0-099d14f2066b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "11.3"
+		(at 101.1454 200.0606 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a7a1c99-923c-4d48-a518-71ae754cccd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "CUI Devices"
+		(at 101.1454 200.0606 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4656159e-a2e2-489a-aadb-1be1fe07c82e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MJ-3502N"
+		(at 101.1454 200.0606 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fb9899c-614f-4287-9f19-83ec94bdb2cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "490-MJ-3502N"
+		(at 101.1454 200.0606 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd38e1a9-4b5c-418b-ae77-fbc0063a6614")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/MJ-3502N?qs=WyjlAZoYn51%252Bghx31AcijA%3D%3D"
+		(at 101.1454 200.0606 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bbfa911-d7fa-4312-b77f-44790685aa88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Serial IO")
+	(sheetfile "Serial_IO.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.2 -3.8)
+		(end 12.3 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4201358-15ff-47ca-9624-7d0f898863e1")
+	)
+	(fp_line
+		(start -1.2 -2.54)
+		(end -1.2 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c6f125b-6610-4450-bd53-eb7bdc6e2d43")
+	)
+	(fp_line
+		(start -1.2 2.54)
+		(end -1.2 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa1593d7-9e93-42ea-9e39-714ae8de44de")
+	)
+	(fp_line
+		(start -1.2 3.8)
+		(end 12.3 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8fb1168-3ec8-492d-9de7-b672500e1588")
+	)
+	(fp_line
+		(start -0.1 4.3)
+		(end -0.1 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47e6d52c-4968-4c1d-9e68-46f94e505c67")
+	)
+	(fp_line
+		(start 0.1 4.3)
+		(end 0.1 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "011b7093-d23e-4174-a585-7b9503ec95f3")
+	)
+	(fp_line
+		(start 12.3 -3.8)
+		(end 12.3 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75b05747-74ca-49de-900a-7603d2e7814f")
+	)
+	(fp_line
+		(start 12.3 3.8)
+		(end 12.3 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0726a57-e920-425d-9aa9-4671ebc553c5")
+	)
+	(fp_arc
+		(start -0.1 4.3)
+		(mid 0 4.2)
+		(end 0.1 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95a9e4d4-f7f9-48b4-bef9-4166a6eb0def")
+	)
+	(fp_arc
+		(start 0.1 4.3)
+		(mid 0 4.4)
+		(end -0.1 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7807f59f-54ec-4ffd-acb7-91c3eda5cf12")
+	)
+	(fp_line
+		(start -7.2 -4.8)
+		(end 14.196 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe40aa55-b9fe-4129-9ac4-aa79de731e94")
+	)
+	(fp_line
+		(start -7.2 5.4)
+		(end -7.2 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57db08a8-df3b-422b-9353-6fcd55f0c474")
+	)
+	(fp_line
+		(start 14.196 -4.8)
+		(end 14.196 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c65e703-75a9-4206-acb6-661b3ea09bfd")
+	)
+	(fp_line
+		(start 14.196 5.4)
+		(end -7.2 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ca5e97b-bf40-4bf7-ab3f-2b6cc01a5b17")
+	)
+	(fp_line
+		(start -6.2 -3)
+		(end -6.2 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e2f9eb1-a511-4dc4-8be9-3f1b80c09e2f")
+	)
+	(fp_line
+		(start -6.2 3)
+		(end -1.2 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21e6b48c-9b69-41df-8e5e-e90c5c3eef03")
+	)
+	(fp_line
+		(start -1.2 -3.8)
+		(end 12.3 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2879d94d-7f24-4aba-bc14-5061f0bf058a")
+	)
+	(fp_line
+		(start -1.2 -3)
+		(end -6.2 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5cfbfc6-fbe5-4ce4-af8c-6b87eacbb22b")
+	)
+	(fp_line
+		(start -1.2 3.8)
+		(end -1.2 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9603e9cc-b314-4065-9f9d-9666b28d3a6e")
+	)
+	(fp_line
+		(start 12.3 -3.8)
+		(end 12.3 3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4caa98d-d70e-4cd4-b626-854a0cef1f8e")
+	)
+	(fp_line
+		(start 12.3 3.8)
+		(end -1.2 3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "513332c5-5a82-440e-83e6-2036a5fe09de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.498 0.3 0)
+		(layer "F.Fab")
+		(uuid "92567961-b5ba-47fc-96b3-fb8f9514ffe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.193 4.193)
+		(drill 2.7951)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0d61829-f778-4c32-b0af-1d1763392250")
+	)
+	(pad "2" thru_hole circle
+		(at 5.4 0)
+		(size 4.193 4.193)
+		(drill 2.7951)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa70741e-2dae-4705-b88e-5c39605ffb6e")
+	)
+	(pad "3" thru_hole circle
+		(at 11.1 0)
+		(size 4.193 4.193)
+		(drill 2.7951)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d517304-968b-4e27-b63b-acdfaf13b0cc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/MJ-3502N.stp"
+		(offset
+			(xyz -1.070000036 -0.3000000074 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

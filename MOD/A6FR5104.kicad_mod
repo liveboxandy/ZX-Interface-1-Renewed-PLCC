@@ -1,0 +1,380 @@
+(footprint "A6FR5104"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "A6FR-5104-2")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at -0.0857 -8.403325 0)
+		(layer "F.SilkS")
+		(uuid "7c7f0038-6407-4371-a268-314790f528c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SW_DIP_x05"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6fbcf2b8-85aa-4ef8-bbb4-711050311991")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24662492-b6c8-47ea-8e17-95f67d314a2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "OMRON - A6FR-5104 - DIP SWITCH, 5POS, SPST, PIANO KEY, TH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63a403e3-706b-4085-a56b-024ba46dc35d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "10.6"
+		(at 311.5841 -164.6895 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cf0b5f2-99df-4a63-923e-a6a068c18aad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Omron Electronics"
+		(at 311.5841 -164.6895 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12d720d6-6c0e-43c4-bc71-7cebf397e779")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "A6FR-5104"
+		(at 311.5841 -164.6895 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f7c6ad5-6183-4bc3-8ad4-cbadcb5def21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "653-A6FR-5104"
+		(at 311.5841 -164.6895 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbb89934-9532-4d0d-a690-62aa864e25cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/A6FR-5104?qs=fAHHVMwC%252BbheLBzh5mdkXw%3D%3D"
+		(at 311.5841 -164.6895 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c82f98f-5e50-4aca-844c-7f3fe4b72494")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "ZX Interface 1 New Layout SMD PLCC.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.13 -5.8)
+		(end 7.13 -5.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2f9a393-5fa1-4deb-8298-e2a7b8e40deb")
+	)
+	(fp_line
+		(start -7.13 4.1)
+		(end -7.13 -5.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce67e757-9ee6-42bd-a2fa-f3604c1a55d2")
+	)
+	(fp_line
+		(start 7.13 -5.8)
+		(end 7.13 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83d27eec-58df-4936-a84d-3193d0e1c459")
+	)
+	(fp_line
+		(start 7.13 4.1)
+		(end -7.13 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a442dd3-49c7-4c90-820d-663ba7547ef2")
+	)
+	(fp_line
+		(start -8.13 -6.8)
+		(end 8.13 -6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8295d87d-3248-4934-950a-cf37d613a0a7")
+	)
+	(fp_line
+		(start -8.13 6.8)
+		(end -8.13 -6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dae513c-179d-4f2d-943a-78b2d6d1b4fe")
+	)
+	(fp_line
+		(start 8.13 -6.8)
+		(end 8.13 6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bf7bf78-da22-445c-9646-a3201bbb5494")
+	)
+	(fp_line
+		(start 8.13 6.8)
+		(end -8.13 6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b40a333-4f3b-4def-9b5e-711d9d1c1b2a")
+	)
+	(fp_line
+		(start -7.13 -5.8)
+		(end 7.13 -5.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4a10445-1d0c-4022-ba4a-82f4d959854e")
+	)
+	(fp_line
+		(start -7.13 4.1)
+		(end -7.13 -5.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8cd84285-977d-419a-87ba-341fa7411b2a")
+	)
+	(fp_line
+		(start -5.08 4.1)
+		(end -5.08 5.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71723521-eb44-471b-9db4-994e8b15aae1")
+	)
+	(fp_line
+		(start -5.08 5.8)
+		(end 4.92 5.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eae95ed4-082a-4aba-b4f3-a25e5d09c3a6")
+	)
+	(fp_line
+		(start 4.92 5.8)
+		(end 5.08 5.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df62f001-fb3b-4cf2-9722-3611d6af8122")
+	)
+	(fp_line
+		(start 5.08 5.8)
+		(end 5.08 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03596011-3498-4630-a214-9517ae02a8a0")
+	)
+	(fp_line
+		(start 7.13 -5.8)
+		(end 7.13 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "669defa1-7ef4-4d57-9b27-497c13be32a5")
+	)
+	(fp_line
+		(start 7.13 4.1)
+		(end -7.13 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d50654a7-58db-4840-9bad-8538900b9279")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "777a33f0-a6bd-4c99-bd3d-3c3e1edc4088")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 2.96)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6d4dc2a-607f-4888-bbd0-6b8aa987151b")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 -4.66)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e277633-e388-463a-b6dc-84279522ce24")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 2.96)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7fe96d13-a3dc-4f77-a3ae-f187a42bc1ad")
+	)
+	(pad "4" thru_hole circle
+		(at -2.54 -4.66)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8132d70b-7906-4597-9626-00caa3946bbd")
+	)
+	(pad "5" thru_hole circle
+		(at 0 2.96)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b6985cd-2d2b-4885-943c-ea6195018ef5")
+	)
+	(pad "6" thru_hole circle
+		(at 0 -4.66)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "adffc228-9527-4805-8440-19578fa12c7e")
+	)
+	(pad "7" thru_hole circle
+		(at 2.54 2.96)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d947d054-20ab-4281-9305-9c0b9214467c")
+	)
+	(pad "8" thru_hole circle
+		(at 2.54 -4.66)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47195007-8894-4fca-bb30-0325e28beb73")
+	)
+	(pad "9" thru_hole circle
+		(at 5.08 2.96)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e57b9c1-5b92-48c3-b734-ba79e85cf38f")
+	)
+	(pad "10" thru_hole circle
+		(at 5.08 -4.66)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44dcfdea-54b5-446c-8239-f0b2361901e0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/5 Position Piano A6FR.stp"
+		(offset
+			(xyz 0 0.8 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

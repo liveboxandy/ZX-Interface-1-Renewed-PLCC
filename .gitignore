@@ -28,4 +28,10 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+
+_avg_/
+Zips/
+Pictures/
+Waves/
+PDF/
+shapes3D/

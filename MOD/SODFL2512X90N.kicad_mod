@@ -1,0 +1,287 @@
+(footprint "SODFL2512X90N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "SOD-323FL")
+	(tags "Diode")
+	(property "Reference" "REF**"
+		(at 0.041025 -2.023775 0)
+		(layer "F.SilkS")
+		(uuid "ee87b9d4-8b60-4276-a8c9-9db9dceb277e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1N4148"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f4ddd6bd-53d6-48b9-a3e0-fb433ebeb54b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f13bbe88-660b-4c4e-91dc-cda92de0f7ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a78fe34e-a548-4b5d-8299-5891ed383a9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.9"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b31c1b61-5e2e-4187-9446-a8071feb6699")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "onsemi"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cdf7bb7-5b5a-45b8-b29e-cec2d45a57a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1N4148WS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "132ba963-8a28-4a31-b563-588ccc14f5e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "512-1N4148WS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ef92075-2d9a-4c93-9cc1-c0c2aaa6173a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b0a9799-dfcf-43b2-83f6-ba6cf5fe2f09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "729d5c36-ae56-4edb-a669-1713815ed679")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1d8d17d-7a92-413c-9c94-1cffc37609aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Microdrive IO")
+	(sheetfile "Microdrive_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.56 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eef35be5-ce42-4a03-8c34-343fca6bb0c4")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8234d00c-310f-4dc9-8897-43a541f3210f")
+	)
+	(fp_line
+		(start -1.71 -0.825)
+		(end 1.71 -0.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c20ec5b3-6612-41b4-b61d-387b29c6fce8")
+	)
+	(fp_line
+		(start -1.71 0.825)
+		(end -1.71 -0.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efc16bb9-5570-4803-b614-b86734dc02ad")
+	)
+	(fp_line
+		(start 1.71 -0.825)
+		(end 1.71 0.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95c0890f-33bb-4218-97a4-68a3257e04a5")
+	)
+	(fp_line
+		(start 1.71 0.825)
+		(end -1.71 0.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be3f0414-ddf0-40ef-91ab-435ba756c475")
+	)
+	(fp_line
+		(start -0.85 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7986439a-f026-412f-ae8a-59ee7a31f156")
+	)
+	(fp_line
+		(start -0.85 -0.215)
+		(end -0.44 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6602c47-c556-4f71-9801-d8ac4eb34742")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end -0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e945c2f7-ba78-488e-966f-c9333c1eb5bc")
+	)
+	(fp_line
+		(start 0.85 -0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43f7710e-967f-4278-94bd-4c16f05a2fe5")
+	)
+	(fp_line
+		(start 0.85 0.625)
+		(end -0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19ed47ac-1c7d-4bf3-95d8-b2475263cb03")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "93c19fa3-3970-40be-bef5-ffc1dcf2da4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0 90)
+		(size 0.42 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "548cad09-7b3a-4f98-b01e-ec8642271a0b")
+	)
+	(pad "2" smd rect
+		(at 1.15 0 90)
+		(size 0.42 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "569223bd-7cb0-477c-a379-9d71f285b5e5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/1N4148WS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

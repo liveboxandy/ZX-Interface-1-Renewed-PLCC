@@ -1,0 +1,243 @@
+(footprint "RESC3116X65N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "CRG_1206")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at 0.0953 -2.397 0)
+		(layer "F.SilkS")
+		(uuid "1873af03-bfea-4c6e-8440-513b6a5714d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "2K7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cdf86933-c36c-477f-99c8-a274bfa09425")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99ec54ad-ed26-44fa-b2bf-e2935ffe2f61")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "TE CONNECTIVITY - CRGH1206F2K7 - RES, 2K7, 1%, 0.5W, 1206, THICK FILM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0602fd85-b96e-4334-a4b9-15fdbc17327a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.65"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c01a9fe-e2b5-4372-87ff-08f2308bcad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TE Connectivity"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dbc7206-a28e-421e-8199-01a69838efdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CRGH1206F2K7"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "002cca51-38fb-45b3-826b-06f247461eb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "279-CRGH1206F2K7"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53c19313-4ade-4534-8c9c-6fb04de68e54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRGH1206F2K7?qs=j1jvDfvplqKvu33xW89a1A%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc47607e-c25f-4229-b4e5-ea944bc7952c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Serial IO")
+	(sheetfile "Serial_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.675)
+		(end 0 0.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98b6fc76-e4db-46d1-8c95-93512c8503f6")
+	)
+	(fp_line
+		(start -2.225 -1.15)
+		(end 2.225 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17bb7078-ac37-401f-9bd5-73d9f65d6dcf")
+	)
+	(fp_line
+		(start -2.225 1.15)
+		(end -2.225 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "213129fb-b453-4596-ad0f-9760569c6282")
+	)
+	(fp_line
+		(start 2.225 -1.15)
+		(end 2.225 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b241ca00-ada9-4cbc-b394-2ec3b16e63b2")
+	)
+	(fp_line
+		(start 2.225 1.15)
+		(end -2.225 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "784578ca-f50c-49ba-b2e4-a38a26e881fa")
+	)
+	(fp_line
+		(start -1.55 -0.775)
+		(end 1.55 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f14460a5-c578-4b3c-9868-cf0149d51bf6")
+	)
+	(fp_line
+		(start -1.55 0.775)
+		(end -1.55 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0a1dd56-3f57-48ea-8b33-3eb3a7f407df")
+	)
+	(fp_line
+		(start 1.55 -0.775)
+		(end 1.55 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc82d452-eb43-4437-abd0-33e10febdeab")
+	)
+	(fp_line
+		(start 1.55 0.775)
+		(end -1.55 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9f3563a-36c3-4ac4-a290-ff7ea683c58a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e4b4f35f-8bc1-47fc-8baf-61003e5e591a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0)
+		(size 1.05 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eaa67dd3-5549-480f-bbcf-c9290074fc6d")
+	)
+	(pad "2" smd rect
+		(at 1.45 0)
+		(size 1.05 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76fdca77-3c31-4e72-996b-88ac5e45c631")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/CRG1206F6K8.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

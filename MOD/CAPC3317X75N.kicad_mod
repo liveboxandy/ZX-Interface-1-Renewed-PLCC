@@ -1,0 +1,243 @@
+(footprint "CAPC3317X75N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "C3216 (060 thickness)")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at -0.1396 -2.358975 0)
+		(layer "F.SilkS")
+		(uuid "fdbef829-d786-4b20-b3f4-b92c8082b804")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "330pF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "095deef5-b1f4-4042-8cbd-20dcffff045e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20cceb87-14f6-4f8b-9318-22ac02144058")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1206 C0G ceramic capacitor 330pF 630V TDK C3216 C 330pF Ceramic Multilayer Capacitor, 630 V dc, +125C, C0G Dielectric, +/-5% SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaea9784-9043-4cd5-9c40-3e2f627d4080")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.75"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fff90ed6-b975-41ee-88cb-b9dbb2c86f4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TDK"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d94e549-fddb-42dd-92f4-b71e675f864c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "C3216C0G2J331J060AA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f9167b4-d938-4106-8261-face79b8a0c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "810-C3216C0G2J331J"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "988ac246-bfb3-4d96-800f-f7bdc7d929b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=810-C3216C0G2J331J"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92c7802e-af77-4e1f-afae-397431959ea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Serial IO")
+	(sheetfile "Serial_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.75)
+		(end 0 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6983d975-8abd-49f7-a67c-100cf5faf413")
+	)
+	(fp_line
+		(start -2.11 -1.11)
+		(end 2.11 -1.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7ee90da-8c1e-44c8-b1f6-55db96e9f82b")
+	)
+	(fp_line
+		(start -2.11 1.11)
+		(end -2.11 -1.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "422a32be-b2fc-4ad0-b74b-bc41d66ae893")
+	)
+	(fp_line
+		(start 2.11 -1.11)
+		(end 2.11 1.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7989416-de1f-41d0-ad55-3f3e37d890b6")
+	)
+	(fp_line
+		(start 2.11 1.11)
+		(end -2.11 1.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02fa982f-d5c1-456e-b472-8b4ec49e88ea")
+	)
+	(fp_line
+		(start -1.65 -0.85)
+		(end 1.65 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "920ad25f-765e-4b84-8d23-fe5a624cfdb6")
+	)
+	(fp_line
+		(start -1.65 0.85)
+		(end -1.65 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31557113-646d-464b-8815-5452ba4d0871")
+	)
+	(fp_line
+		(start 1.65 -0.85)
+		(end 1.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3933e23b-863d-4573-a122-7fd4830addfa")
+	)
+	(fp_line
+		(start 1.65 0.85)
+		(end -1.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1ba2073-7a3f-48bf-857c-55fdb869917f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2e9f956d-ab9d-4720-9779-6dd0a11e69bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.65 0)
+		(size 0.62 1.92)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c5a8555-997e-424b-995f-a24be4ea510b")
+	)
+	(pad "2" smd rect
+		(at 1.65 0)
+		(size 0.62 1.92)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "607aaa3b-7019-49e9-a086-ec56e75f2cb0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/C3216C0G2J331J060AA.stp"
+		(offset
+			(xyz -1.649999951 0 0.7999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
